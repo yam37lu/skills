@@ -1,0 +1,21 @@
+{
+  "_comment": "把每个 idea 的九维评分填成 1-5（可为小数），运行 python score_ideas.py <本文件>。权重默认见 references/evaluation.md。",
+  "ideas": [
+    {
+      "id": "I1",
+      "title": "工作标题（中/英）",
+      "scores": {
+        "novelty": 3,
+        "significance": 3,
+        "fit": 3,
+        "data": 3,
+        "feasibility": 3,
+        "compute": 3,
+        "risk": 3,
+        "publishability": 3,
+        "defensibility": 3
+      },
+      "notes": "评分理由：新颖性依据哪篇最近工作；数据来源；最大风险。"
+    }
+  ]
+}
